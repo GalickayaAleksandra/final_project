@@ -1,0 +1,1029 @@
+@font-face{
+    font-family: "Montserrat";
+    src:url("../fonts/Montserrat/Montserrat-Black.ttf") format("truetype");
+    src:url("../fonts/Montserrat/Montserrat-BlackItalic.ttf") format("truetype");
+    src:url("../fonts/Montserrat/Montserrat-Bold.ttf") format("truetype");
+    src:url("../fonts/Montserrat/Montserrat-BoldItalic.ttf") format("truetype");
+    src:url("../fonts/Montserrat/Montserrat-Regular.ttf") format("truetype");
+}
+
+.menu>a:hover{
+    text-decoration: none;
+    color: #8fdddf;
+    border-bottom: 3px solid #8fdddf;
+}
+
+.arrow{
+     position: absolute;
+     font-size: 35px; 
+     transform: translateY(-50%); 
+     top: 50%;
+     color: #ffff;
+}
+.arrow-left{
+    left: 30px;
+}
+.arrow-left:hover{
+    color: #fefefe;
+}
+.arrow-right{
+    right: 30px;
+}
+.arrow-right:hover{
+    color: #fefefe;
+}
+.level:hover{
+    background: #49cbcd;
+}
+.button-row button:hover{
+    background: #49cbcd;
+}
+.left:hover,
+.right:hover{
+    color: #a8a8a8;
+}
+
+.facebook:hover{
+    text-decoration: none;
+    color: #3b5997;
+}
+.twitter:hover{
+    text-decoration: none;
+    color: #3ec2f3;
+}
+.gmail:hover{
+    text-decoration: none;
+    color: #e44c41;
+}
+.site:hover,
+.number:hover,
+.mail:hover{
+    color: #bface2;
+   text-decoration: none;
+}
+.title input:hover{
+    border-color: #3ec2f3;
+}
+.arrow:hover{
+    color:#49cbcd;
+}
+.small-container button{
+    border-color:#5f6a75;
+}
+.right:hover,
+.left:hover{
+    color: #49cbcd;
+} 
+.site:hover,
+.number:hover,
+.mail:hover{
+    color: #485460;
+}
+
+
+html,
+body{
+  font-size: 20px;
+  overflow-x: hidden;
+  height: 100%;
+  width: 100vw;
+  margin: 0;
+  font-weight: normal;
+  color: Black;
+  background: white;
+  font-family: inherit;
+}
+
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+header{ 
+    background:#ffffff;
+}
+.header-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    position: relative;
+}
+.header-container a, .menu a{
+    display: flex;
+    align-items: center;
+    height: 90px;
+    justify-content: center
+}
+ 
+
+.menu{
+    display: flex;
+    align-items: center;
+    font-family: "Montserrat";
+    font-size: 15px;
+    color: #484c55;
+    /* height: 100px; */
+    /* width: 100%; */
+    text-align: center;
+}
+
+.menu + .menu{
+    margin-left: 40px;
+}
+
+
+
+.background-container img{
+    width: 100%;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper-container{
+    position: relative;
+}
+.block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.title div{
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-size: 45px;
+    margin-bottom: 26px;
+}
+
+.title p{
+    color: #ffffff;
+    font-family: "Montserrat";
+    font-size: 20px;
+    line-height: 5px;
+}
+
+.title input{
+    color: #ffffff;
+    border: 2px solid #ffffff;
+    padding: 4px;
+    border-radius: 5px;
+    width: 34%;
+    background: transparent;
+    font-family:"Montserrat";
+    font-weight: 500;
+    margin-top: 25px;
+}
+.fa-rocket{
+    color: #49cbcd;
+    font-size: 30px;
+    padding: 30px;
+}
+.fa-tv{
+    color: #49cbcd;
+    font-size: 30px;
+    padding: 30px;
+}
+.fa-lightbulb{
+    color: #49cbcd;
+    font-size: 35px;
+    padding: 30px 35px;
+}
+.fa-tablet-alt{
+    color: #49cbcd;
+    font-size: 35px;
+    padding: 30px 33px;
+}
+.icon{
+    color: #49cbcd;
+    border: 2px solid #49cbcd;
+    border-radius: 50px;
+    width: 100px;
+    height: 100px;
+    margin-bottom: 40px;
+}
+
+.small-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top:20px; 
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 26px;
+    color: #5f626c;
+    font-weight: 600;
+}
+.type{
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    color: #4e525d;
+}
+.small-container button{
+    background: #49cbcd;
+    font-family: "Montserrat"; 
+    font-size: 14px;
+    color: #ffffff;
+    border-radius: 5px;
+    height: 30px;
+    border: none;
+    margin-top: 20px;
+    width: 40%;
+}
+.name-block{
+    display: flex;
+    justify-content: center;
+    color: #4e525d;
+    font-family: "Montserrat";
+    font-size: 42px;
+    margin-bottom: 60px;
+
+}
+.information{
+    padding: 100px 0;
+}
+
+.portfolio{
+    background:#f1f1f1;
+    padding: 50px 0;
+}
+.top-row{
+    margin-bottom: 30px;
+}
+.button-block>input{
+   background: #49cbcd;
+   color: #ffffff;
+   font-family: "Montserrat";
+   font-size: 20px;
+   border: none;
+   padding: 10px 50px;
+}
+.button-block{
+    display: flex;
+    justify-content: center;
+    margin-top: 60px;
+}
+.team{
+    padding: 50px 0;
+}
+.headline{
+    display: flex;
+    justify-content: center;
+    font-family: "Montserrat";
+    font-size: 42px;
+    color: #4e525d;
+    margin-bottom: 125px;
+}
+.column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.fa-plus{
+    color: #f46d6d;
+    padding: 50px 50px;
+    font-size: 40px;
+}
+.elips{
+    background: #eeeef0;
+    border-radius: 74px;
+    width: 139px;
+    height: 139px;
+    margin-bottom: 20px;
+}
+.initials{
+    font-family: "Montserrat";
+    font-size: 20px;
+    font-weight: 600;
+    color: #4e525d;
+    margin-top: 30px;
+}
+.positions{
+    font-family: "Montserrat";
+    font-size: 12px;
+    color: #4e525d;
+    font-weight: 600;
+    line-height: 20px;
+}
+.description-block{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Montserrat";
+    font-size: 12px;
+    line-height: 26px;
+    color: #5f626c;
+    font-weight: 600;
+}
+img{
+    width: 100%;
+}
+.price-wrapper{
+    background: #f1f1f1;
+    padding: 100px 0;
+}
+.level{
+    background: #485460;
+    color: #ffffff;
+    width: 350px;
+    height: 65px;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 20px;
+}
+.price{
+    width: 350px;
+    height: 65px;
+    background: #f8f9fb;
+    color: #5f6a75;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 20px;
+}
+.info{
+    width: 350px;
+    height: 45px;
+    background: #ffffff;
+    color: #8c9299;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 12px;
+    border-bottom: 1px solid #ecf0f1;
+    font-size: 14px;
+}
+.button-row{
+    width: 350px;
+    height: 85px;
+    background: #f8f9fb;
+    color: #8c9299;
+    font-family: "Montserrat";
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid #ecf0f1;
+    font-size: 14px;
+}
+
+.button-row button{
+    background: #788492;
+    border: none;
+    height: 40px;
+    width: 170px;
+    font-family:  "Montserrat";
+    color: #ffffff;
+    font-weight: 600;
+    font-size: 17px;
+    border-radius: 3px;
+}
+.reviews{
+    padding: 133px 0;
+    position: relative;
+}
+.block1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.customer-reviews{
+    color: #4e525d;
+    font-family:  "Montserrat";
+    font-size: 35px;
+    font-weight: 600;
+    margin-bottom: 45px;
+}
+.inf{
+    color: #4e525d;
+    font-size: 15px;
+    font-weight: 600;
+    font-family:  "Montserrat";
+    text-align: center;
+    line-height: 22px;
+}
+.person{
+    color: #4e525d;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 35px;
+}
+.left{
+    color: #a8a8a8;
+    position: absolute;
+    font-size: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+    left: 22%;
+}
+
+.right{
+    color: #a8a8a8;
+    position: absolute;
+    font-size: 20px;
+    transform: translateY(-50%);
+    top: 50%;
+    right: 22%;
+}
+.contact{
+    background: url("../image/background-2.png");
+    padding: 105px 0;
+    background-repeat: round;
+}
+
+.connection{
+    font-family: "Montserrat";
+    font-size: 42px;
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 118px;
+}
+
+.inf-block{
+color: #ffffff;
+font-family: "Montserrat";
+font-size: 24px;
+margin-bottom: 10px;
+}
+.text{
+    color: #797979;
+    font-family: "Montserrat";
+    font-size: 14px;
+    font-weight: 400;
+    margin-bottom: 38px;
+}
+.facebook{
+    color: #3b5997;
+    font-size: 40px;
+}
+.twitter{
+    color: #3ec2f3;
+    font-size: 40px;
+}
+.gmail{
+    color: #e44c41;
+    font-size: 40px;
+}
+.contacts-inf{
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    line-height: 25px;
+}
+.site,
+.number,
+.mail{
+    color: #bface2;
+    font-size: 14px;
+    font-family: "Montserrat";
+}
+.accounts{
+    margin-bottom: 15px;
+}
+.login,
+.password{
+    border: none;
+    color: #c1c1c1;
+    padding: 6px 19px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+.message{
+    border: none;
+    color: #c1c1c1;
+    padding: 0 20px;
+    font-family: "Montserrat";
+    font-size: 16px;
+    border-radius: 5px;
+    width: 95%;
+    height: 175px;
+    margin-top: 19px;
+}
+.send{
+    display: flex;
+    justify-content: flex-end;
+    padding: 30px;
+}
+.send button{
+    background: #49cbcd;
+    border: none;
+    height: 40px;
+    width: 150px;
+    font-family: "Montserrat";
+    color: #ffffff;
+    font-weight: 400;
+    font-size: 17px;
+    border-radius: 3px;
+
+}
+.image-carousel{
+    height: 500px;
+}
+/* .nav{
+    transition: all .5s;
+}
+.burger-menu{
+    display: none;
+} */
+@media(max-width:575.98px){
+     .nav{
+        display: none;
+    }
+    .nav.active{
+        display: block;
+        left: 0;
+        position: absolute;
+        background-color: #a3fbdd;
+        width: 100%;
+        top: 76px;
+        z-index: 5;
+    }
+    .menu{
+        font-size: 10px;
+        text-align: center;
+        width: 100%;
+        text-align: center;
+        margin-left: 40px;
+       
+    }
+    /* .burger-menu{
+        display: block;
+        border: none;
+        border-radius: 20%;
+        color: black;
+    }  */
+    /* .menu + .menu{
+        /* margin-left: 5px; */
+        /* margin-left: 0; */
+    /* } */ 
+    .title div{
+        font-size: 12px;
+        margin-bottom: 12px;
+    }
+    
+    .title p{
+        font-size: 11px;
+        line-height: 0;
+    }
+    .title input{
+        width: 60%;
+        margin-top: 0;
+        height: 27px;
+        font-size: 11px;
+        padding: 0;
+    }
+    .arrow{
+        top: 40%;
+        font-size: 20px;
+    }
+    .arrow-right{
+        right: 19px;
+    }
+    .arrow-left{
+        left: 19px;
+    }
+    
+    .icon{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .fa-rocket{
+        padding: 24px;
+    }
+    .fa-tv{
+        padding: 20px;
+    }
+    .fa-lightbulb{
+        padding: 18px 27px;
+    }
+    .fa-tablet-alt{
+        padding: 20px 24px;
+    }
+    .type{
+        font-size: 16px;
+    }
+    .description{
+        margin-top: 10px;
+    }
+    .information{
+        padding: 50px 0;
+    }
+    .small-container button{
+        margin-top: 10px;
+    }
+    .small-container{
+        margin-top: 30px;
+    }
+    .headline{
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    .elips{
+        width: 100px;
+        height: 100px;
+    }
+    .fa-plus{
+        font-size: 35px;
+        padding: 30px 34px;
+    }
+    .initials{
+        font-size: 17px;
+        margin-top: 7px;
+    }
+    .description-block{
+        line-height: 23px;
+        margin-top: 10px;
+    }
+    .column{
+        margin-bottom: 20px;
+    }
+    .level,
+    .price,
+    .info,
+    .button-row{
+        width: 190px;
+        height: 53px;
+        padding: 13px;
+    }
+    .button-row button{
+        height: 33px;
+        width: 148px;
+    }
+    .info{
+        font-size: 12px;
+    }
+    .reviews{
+        padding: 60px 0;
+    }
+    .customer-reviews{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .inf{
+        font-size: 11px;
+        line-height: 20px;
+    }
+    .left,
+    .right{
+        font-size: 15px;
+        top: 46%;
+    }
+    .left{
+        left:6%;
+    }
+    .right{
+        right: 6%;
+    }
+    .contact{
+        padding: 50px 0;
+    }
+    .connection{
+        margin-bottom: 65px;
+    }
+    .inf-block,
+    .text,
+    .accounts,
+    .contacts-inf{
+        text-align: center;
+    }
+    .login, .password{
+        padding: 3px 27px;
+    }
+    .login{
+        margin-bottom: 5px;
+    }
+    .contacts-inf{
+        margin-bottom: 15px;
+        line-height: 22px;
+    }
+}
+
+@media(min-width:576px){
+    /* .burger-menu{
+        display: none;
+    } */
+}
+
+@media(min-width:576px) and (max-width:767.98px){
+    .menu{
+        font-size: 10px;
+    }
+    .menu + .menu{
+        margin-left: 20px;
+    }
+    .title div{
+        font-size: 22px;
+        margin-top: 20px;
+        margin-bottom: 15px;
+    }
+    .title p{
+        font-size: 12px;
+    }
+    .arrow{
+        top: 40%;
+        font-size: 25px;
+    }
+    .title input{
+        width: 57%;
+        margin-top: 10px;
+    }
+    .information{
+        padding: 50px 0;
+    }
+    .icon{
+        width: 80px;
+        height: 80px;
+        margin-bottom: 20px;
+    }
+    .fa-rocket{
+        padding: 23px;
+    }
+    .fa-tv{
+        padding: 21px;
+    }
+    .fa-lightbulb{
+        padding: 17px 28px;
+    }
+    .fa-tablet-alt{
+        padding: 17px 25px;
+    }
+    .small-container{
+        margin-bottom: 25px;
+    }
+    .type{
+        font-size: 17px;
+    }
+    .description{
+        margin-top: 8px;
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .small-container button{
+        width: 50%;
+        margin-top: 13px;
+        font-size: 13px;
+    }
+    .team{
+        padding: 30px 0;
+    }
+    .headline{
+        font-size: 35px;
+        margin-bottom: 45px;
+    }
+    .elips{
+        width: 100px;
+        height: 100px;
+        margin-bottom: 0;
+    }
+    .fa-plus{
+        font-size: 35px;
+        padding: 31px 37px;
+    }
+    .initials{
+        font-size: 16px;
+        margin-top: 17px;
+    }
+    .description-block{
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 22px;
+    }
+    .column{
+        margin-bottom: 30px;
+    }
+    .level,
+    .price,
+    .info,
+    .button-row
+    {
+        width: 180px;
+        height: 55px;
+        padding: 12px;
+    }
+    .info{
+        font-size: 12px;
+    }
+    .button-row button{
+        width: 150px;
+        height: 35px;
+    }
+    .reviews{
+        padding: 36px 0;
+    }
+    .customer-reviews{
+        font-size: 25px;
+        margin-bottom: 25px;
+    }
+    .inf{
+        font-size: 12px;
+        line-height: 18px;
+    }
+    .person{
+        padding: 16px;
+    }
+    .left{
+        left: 10%;
+    }
+    .right{
+        right: 10%;
+    }
+    .contact{
+        padding: 35px 0;
+    }
+    .connection{
+        font-size: 35px;
+        margin-bottom: 55px;
+    }
+    .inf-block{
+        font-size: 22px;
+        text-align: center;
+    }
+    .text,
+    .accounts{
+        text-align: center;
+    }
+    .login, .password{
+        font-size: 13px;
+        margin-top: 18px;
+    }
+}
+@media(min-width:768px) and (max-width:991.98px){
+    .menu{
+        font-size: 12px;
+    }
+    .menu + .menu{
+        margin-left: 27px;
+    }
+    .title div{
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+    .title p{
+        font-size: 16px;
+        line-height: 2px;
+    }
+    .title>input{
+        width: 43%;
+    }
+    .information{
+        padding: 50px 0;
+    }
+    .type{
+        font-size: 18px;
+    }
+    .icon{
+        margin-bottom: 18px;
+    }
+    .small-container{
+        margin-bottom: 25px;
+    }
+    .description{
+        margin-top: 10px;
+        font-size: 11px;
+        line-height: 23px;
+    }
+    .team{
+        padding: 30px 0;
+    }
+    .headline{
+        margin-bottom: 80px;
+    }
+    .elips{
+        width: 100px;
+        height: 100px;
+    }
+    .fa-plus{
+        font-size: 35px;
+        padding: 31px 37px;
+    }
+    .initials{
+        margin-top: 5px;
+        font-size: 16px;
+    }
+    .description-block{
+        margin-top: 13px;
+        font-size: 10px;
+        line-height: 22px;
+    }
+    .price-wrapper{
+        padding: 50px 0;
+    }
+    .level,
+    .price,
+    .info,
+    .button-row{
+        width: 230px;
+        height: 50px;
+        padding: 10px;
+    }
+    .button-row button{
+        height: 35px;
+        width: 150px;
+    }
+    .reviews{
+        padding: 60px 0;
+    }
+    .customer-reviews{
+        font-size: 27px;
+        margin-bottom: 20px;
+    }
+    .inf{
+        font-size: 12px;
+    }
+    .left{
+        top: 44%;
+        left: 18%;
+    }
+    .right{
+        top: 44%;
+        right: 18%;
+    }
+    .contact{
+        padding: 45px 0;
+    }
+    .connection{
+        margin-bottom: 50px;
+    }
+    .inf-block,
+    .text,
+    .accounts{
+        text-align: center;
+    }
+    .contacts-inf{
+        margin-bottom: 10px;
+    }
+}
+@media(min-width:992px) and (max-width:1199.98px){
+    .title div{
+        font-size: 41px;
+        margin-bottom: 15px;
+    }
+    .information{
+        padding: 55px 0;
+    }
+    .description{
+        margin-top: 10px;
+        font-size: 11px;
+    }
+    .small-container button{
+        width: 50%;
+        margin-top: 15px;
+    }
+    .headline{
+        margin-bottom: 55px;
+    }
+    .elips{
+        margin-bottom: 0;
+    }
+    .initials{
+        margin-top: 20px;
+    }
+    .description-block{
+        font-size: 11px;
+        margin-top: 10px;
+    }
+    .level,
+    .price,
+    .info,
+    .button-row{
+        width: 295px;
+        height: 55px;
+        padding: 13px;
+    }
+    .reviews{
+        padding: 70px  0;
+    }
+    .left{
+        left: 12%;
+    }
+    .right{
+        right: 12%;
+    }
+    .contact{
+        padding: 70px 0;
+    }
+    .connection{
+        margin-bottom: 85px;
+    }
+    .inf-block,
+    .text,
+    .accounts,
+    .contacts-inf{
+        text-align: center;
+    }
+    .form{
+        margin-top: 24px;
+        text-align: center;
+    }
+}
